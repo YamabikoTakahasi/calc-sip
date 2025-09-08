@@ -1,0 +1,132 @@
+  .inputForm h2 {
+    font-size: 20px;
+    margin-bottom: 24px;
+    color: #202124;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #202124;
+  }
+
+  .form-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form-title div{
+    display: flex;
+    margin-right: 11%;
+    align-items: top;
+  }
+
+  .form-title div img{
+    margin-bottom: 6px;
+  }
+
+  .form-title div label{
+    font-size: 13px;
+    color: #235990;
+    text-decoration: underline;
+  }
+
+  .form-title div:hover{
+    opacity: 0.7;
+  }
+  
+  .form-title span{
+    display: none;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    color: red;
+  }
+  
+  select,
+  input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .input-with-unit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .input-with-unit span {
+    font-size: 15px;
+    color: #5f6368; 
+  }
+  
+  .calculate-button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #0c6cf2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .calculate-button:hover {
+    opacity: 0.8;
+  }
+
+  select{
+    font-size: 15px;
+  }
+
+  @media screen and (max-width:1024px){
+    .inputForm h2{
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    .form-group label {
+      font-weight: 600;
+      font-size: 13px;
+      margin-bottom: 5px;
+      color: #202124;
+    }
+
+    /* .form-title div{
+      margin-right: 5%;
+    } */
+
+    .form-title div label{
+      font-size: 12px;
+    }
+
+    .input-with-unit span {
+      font-size: 12px;
+    }
+
+    select,
+    input[type="number"] {
+      font-size: 14px;
+    }
+
+    .calculate-button{
+      margin-top: 15px;
+      width: 100%;
+      font-size: 14px;
+    }
+  }

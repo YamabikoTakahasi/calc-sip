@@ -1,0 +1,49 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 40px 20px ;
+}
+
+.content-wrapper {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+/* 左カラム：説明 */
+.explainAndPieChart-wrapper {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+
+/* 右カラム：フォーム */
+.inputForm-wrapper {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.inputForm-wrapper-phone{
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+}
+
+@media screen and (max-width:1024px) {
+  .App{
+    padding: 20px 15px;
+  }
+}
