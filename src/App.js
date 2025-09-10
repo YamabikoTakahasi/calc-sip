@@ -96,13 +96,13 @@ class App extends React.Component{
       }else{
         document.querySelectorAll('.form-group label span')[0].style.display = 'none';
       }
-      if(salary == 0){
+      if(salary === 0){
         document.querySelectorAll('.form-group label span')[1].style.display = 'inline';
         required = false;
       }else{
         document.querySelectorAll('.form-group label span')[1].style.display = 'none';
       }
-      if(age == ""){
+      if(age === ""){
         document.querySelectorAll('.form-group label span')[2].style.display = 'inline';
         required = false;
       }else{
@@ -188,7 +188,7 @@ class App extends React.Component{
     return(
       <div className="App">
           {
-            isPC == true &&
+            isPC === true &&
             <div className="content-wrapper">
               <div className="explainAndPieChart-wrapper">
                 <Explain/>
@@ -202,7 +202,7 @@ class App extends React.Component{
             </div>
           }
           {
-            isPC == false &&
+            isPC === false &&
             <div className="content-wrapper-phone">
                 <Explain/>
                 <div className='inputForm-wrapper-phone'>

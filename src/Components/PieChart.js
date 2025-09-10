@@ -9,7 +9,7 @@ class MakePieChart extends Component{
         super(props);
     }
     clacResult = () =>{
-        if(this.props.data[0].value + this.props.data[1].value == 0){
+        if(this.props.data[0].value + this.props.data[1].value === 0){
             return "　";
         }else{
             return this.props.data[0].value + this.props.data[1].value + this.props.data[2].value + this.props.data[3].value + this.props.data[4].value;

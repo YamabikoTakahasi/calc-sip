@@ -29,7 +29,7 @@ class InputFrom extends Component{
                 <div className='form-title'>
                   <label>標準報酬月額／月額支給額 <span>＊必須</span></label>
                   <div onClick={this.props.showSalartExplainPopup}>
-                    <img src={Question} width={window.innerWidth > 1024 ? 20 : 18} height={window.innerWidth > 1024 ? 20 : 18}/>
+                    <img src={Question} width={window.innerWidth > 1024 ? 20 : 18} height={window.innerWidth > 1024 ? 20 : 18} alt="説明用アイコン"/>
                     {/* <label>標準報酬月額とは？</label> */}
                   </div>
                 </div>
