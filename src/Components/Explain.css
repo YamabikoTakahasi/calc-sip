@@ -1,17 +1,17 @@
   
-  h1 {
+  .explain h1 {
     font-size: 30px;
     margin-bottom: 16px;
     color: #202124;
   }
   
-  h2 {
+  .explain h2 {
     font-size: 22px;
     margin-bottom: 12px;
     color: #333;
   }
   
-  p {
+  .explain p {
     font-size: 16px;
     color: #555;
     line-height: 1.6;
@@ -25,16 +25,16 @@
     .explain{
       width: 100%;
     }
-    h1{
+    .explain h1{
       width: 100%;
-      font-size: 20px;
+      font-size: 22px;
       text-align: center;
     }
-    h2{
-      font-size: 15px;
+    .explain h2{
+      font-size: 17px;
     }
-    p{
-      font-size: 12px;
+    .explain p{
+      font-size: 15px;
       flex-wrap: wrap;
     }
   }

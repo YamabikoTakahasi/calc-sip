@@ -131,8 +131,18 @@
   @media screen and (max-width:1024px){
     .popup {
       width: 75%;
-      height: 500px;
+      height: 535px;
     }
+
+    .popup p{
+      font-size: 15px;
+    }
+
+    .popup h1{
+      text-align: center;
+      font-size: 20px;
+    }
+
     .payslip-grid {
       grid-template-columns: 1fr;
     }

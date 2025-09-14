@@ -96,15 +96,19 @@
 
   @media screen and (max-width:1024px){
     .inputForm h2{
-      font-size: 15px;
+      font-size: 17px;
       margin-bottom: 10px;
     }
 
     .form-group label {
       font-weight: 600;
-      font-size: 13px;
+      font-size: 15px;
       margin-bottom: 5px;
       color: #202124;
+    }
+
+    .form-group select{
+      background-color: white;
     }
 
     /* .form-title div{
