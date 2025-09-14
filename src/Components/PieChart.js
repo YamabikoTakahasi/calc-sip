@@ -19,7 +19,7 @@ class MakePieChart extends Component{
         return(
             <div className="chart-container">
                 <p>年間<span className='chart-container-span'>約{this.clacResult()}万円</span>の社会保険料を支払っています</p>
-                <PieChart width={window.innerWidth > 1024 ?  400 : 300} height={window.innerWidth > 1024 ?  330 : 450}>
+                <PieChart className='test' width={window.innerWidth > 1024 ?  400 : 300} height={window.innerWidth > 1024 ?  330 : 450}>
                     <Pie data={this.props.data} cx="50%" cy="50%" outerRadius={100} label dataKey="value" startAngle={90} endAngle={-270}>
                         {this.props.data.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} strokeWidth='0.65'/>
